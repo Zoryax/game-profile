@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="/scripts.js"></script>
 </head>
-<body>
+<body id="mainBody">
     <div class="container">
         <div class="game-logo">
             <img class="logo" src="/img/super-villains-logo.png" alt="foto de perfil">
@@ -16,7 +17,10 @@
             <input type="password" placeholder="Password" class="login-info"></p>
         </div>
         <div class="button-login">
-            <a href="/profile.html"><button class="entrar">Login</button></a>
+            <a href="/profile.html"><button class="buttons" id="entrar">Login</button></a>
+        </div>
+        <div class="darkMode">
+            <button id="darkMode" class="buttons" onclick="darkMode()">Dark Mode</button>
         </div>
     </div>
 </body>
